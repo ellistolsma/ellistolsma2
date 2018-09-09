@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {box-sizing:border-box}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 20px;
+  max-width: 70%;
+  max-height: 80%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+	
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+	text-align: center;
+	margin:auto;
+}
+
+.mySlides:first-child {
+	display:block;
+}
+
+/*titel*/
+.titel3Dflat {
+	text-align: center;
+	padding-top:20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+
+.lijn {
+	margin-top:-15px; 
+	padding-right:10px;
+}
+	
+.arrow2ndSlide {
+	position: fixed;
+	cursor:pointer;
+	padding-top:10px;
+	padding-right:10px;
+    bottom: 4%;
+	width:100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+
+.prev2ndslide {
+ padding-right: 10px;
+	
+}
+
+.homebutton {
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+/* Next & previous buttons */
+.prev, .next {
+
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	
+  right:  0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color:#C683AB;
+  font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-size: 15px;
+  top:5px;
+  width: 100%;
+  text-align:center;
+  overflow: visible;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#planeet {
+	padding-bottom:45px;
+}
+
+#bug {
+	padding-top:60px;
+	padding-bottom:43px;
+}
+
+#lamp {
+	padding-left:20px;
+}
+
+#house {
+	padding-top:30px;
+}
+
+#turnface {
+	padding-top:40px;
+}
+
+#shroom {
+	padding-top:80px;
+	padding-left:10px;
+}
+
+#beest {
+	padding-bottom:80px;
+	padding-top:50px;
+}
+
+#angrysun{
+	padding-top:70px;
+}
+
+#instruct {
+	padding-top:20px;
+	position:absolute;
+	right:650px;
+	overflow: visible;
+
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

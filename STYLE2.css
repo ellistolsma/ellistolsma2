@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+	
+* {
+  box-sizing: border-box;
+}
+
+
+.titel {
+	width:30%;
+}
+	
+
+.headerhomepagina {
+	height:auto;
+	max-width:100%;
+	padding-top:25px;
+    text-align:center;
+	padding-right:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.aboutme {
+	height:auto;
+	max-width:100%;
+	text-align:center;
+	padding-right:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.klik {
+	margin-top:4%;
+	
+}
+
+.huis3D {
+	max-width:100%; 
+	width:29.5%;
+	padding-left: 120px; 
+	padding-right: 30px; 
+    height:auto;}
+
+.halfplat {
+	max-width:100%;
+	width:18.2%;
+	padding-left:50px; 
+	padding-right: 30px; 
+    height:auto;} 
+
+.HUISFILM {
+	max-width:100%; 
+	width:23.5%;
+	padding-left: 40px;  
+	padding-right: 40px; 
+	position:relative; 
+	top:9px;
+    height:auto;}
+
+.huisplat {
+	max-width:100%; 
+	width:12.7%;
+	position:relative; 
+	top: 12px; 
+	padding-left: 40px; 
+	margin-right:10%;
+    height:auto; }
+
+	@media only screen and (max-width: 550px) {
+    /* klein scherm: */
+		
+		
+    .huis3D {
+		display: block;
+		margin-left:60px;
+		width: 55%;
+		overflow:visible;
+		margin-bottom: -40px;
+	    
+		}
+		
+		.halfplat {
+		display: block;
+		width:38%;
+	    overflow: visible;
+		margin-top:15px;
+		margin-left:-10px;
+		float:left;
+	}
+	
+		.HUISFILM {
+	display: block;
+	width: 47.2%;
+	float: right;	
+	margin-top:-43px;
+	margin-right:-26px;
+		}
+		
+		.huisplat {
+	display: block;
+	width: 23.5%;
+	float:left;
+	margin-left: 160px;
+	margin-top:-80px;
+		}
+		
+		.aboutme {
+			width: 20%;
+		}
+		
+		.titel {
+			width:50%; 
+		}	
+		
+		.mij {
+		width:120%;
+		margin-bottom:20px;
+		}
+		
+}
+
+
+@media only screen and (max-width: 415px) {
+    /* For mobile phones: */
+		
+		
+    .huis3D {
+		display: block;
+		margin-left:10px;
+		width: 68%;
+		overflow:visible;
+		margin-bottom: -40px;
+	    
+		}
+		
+		.halfplat {
+		display: block;
+		width:47%;
+	    overflow: visible;
+		margin-top:20px;
+		margin-left:-30px;
+		float:left;
+	}
+	
+		.HUISFILM {
+	display: block;
+	width: 55%;
+	float: right;	
+	margin-top:-29px;
+	margin-right:-36px;
+		}
+		
+		.huisplat {
+	display: block;
+	width: 29%;
+	float:left;
+	margin-left: 109px;
+	margin-top:-80px;
+		}
+		
+		.aboutme {
+			width: 20%;
+		}
+		
+		.titel {
+			width:58%; 
+			margin-left:20px;
+			margin-top:-10px;
+		}	
+		
+		.mij {
+		margin-left:-9px;
+		width:230%;
+		margin-bottom:5px;
+		}
+		
+}
+	
+	@media only screen  
+  and (max-device-width: 667px) 
+  and (orientation: landscape) { 
+	  
+	  
+
+

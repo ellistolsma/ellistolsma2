@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+	
+	* {
+    box-sizing: border-box;
+}
+
+
+.titel {
+	width:30%;
+}
+	
+
+.headerhomepagina {
+	max-width:100%;
+	padding-top:25px;
+    text-align:center;
+	padding-right:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.aboutme {
+	max-width:100%;
+	text-align:center;
+	padding-right:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.klik {
+	margin-top:4%;
+	
+}
+
+.huis3D {
+	max-width:100%; 
+	width:29.5%;
+	padding-left: 120px; 
+	padding-right: 30px; 
+    height:auto;}
+
+.halfplat {
+	max-width:100%;
+	width:18.2%;
+	padding-left:50px; 
+	padding-right: 30px; 
+    height:auto;} 
+
+.HUISFILM {
+	max-width:100%; 
+	width:23.5%;
+	padding-left: 40px;  
+	padding-right: 40px; 
+	position:relative; 
+	top:9px;
+    height:auto;}
+
+.huisplat {
+	max-width:100%; 
+	width:12.7%;
+	position:relative; 
+	top: 12px; 
+	padding-left: 40px; 
+	margin-right:10%;
+    height:auto; }
+
+
+
+
+
+

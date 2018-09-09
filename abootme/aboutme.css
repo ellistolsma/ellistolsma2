@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.aboutme {
+	margin:auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:10px;
+}
+
+.homebutton {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center; 
+	
+}
+
+
+.socialmed {
+	display:inline;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	max-width:100%;
+    text-align: justify;
+	text-align: center;
+	
+}
+
+.ik {
+	padding-top:50px;
+	text-align: justify;  
+	max-width:45%;
+	color:#000000;
+	line-height: 1.4;
+	text-align: center;
+	margin:auto;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+}
+
+.mail {
+	color: #DFADD0;
+	
+}
+
+.insta {
+	padding-top:20px; 
+	padding-right:20px;
+}
+
+.tumblr {padding-right:20px;}

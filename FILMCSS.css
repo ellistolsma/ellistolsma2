@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+* {box-sizing:border-box}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 40px;
+  max-width: 70%;
+  max-height: 80%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+
+	
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+	text-align: center;
+	margin:auto;
+}
+
+.mySlides:first-child {
+	display:block;
+}
+
+/*titel*/
+.titel {
+	text-align: center;
+	padding-top:20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.lijn {
+	margin-top:-15px; 
+	padding-right:10px;
+}
+	
+.arrow2ndSlide {
+	position: fixed;
+	cursor:pointer;
+	padding-top:10px;
+    bottom: 4%;
+	width:100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+
+.prev2ndslide {
+ padding-right: 10px;
+	
+}
+
+.homebutton {
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+/* Next & previous buttons */
+.prev, .next {
+
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	
+  right:  0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position:relative;
+  top:50px;
+  width: 100%;
+  text-align:center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#ogen {
+	padding-top:80px; 
+}
+
+#plant2 {
+	padding-left:10px;
+}
+
+#fire {
+	padding-top:70px;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

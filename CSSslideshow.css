@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+* {box-sizing:border-box}
+
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 40px;
+  width:70%;
+  height:auto;
+  position: relative;
+  margin: auto;
+  text-align: center;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+	max-width:100%;
+    display: none;
+	text-align: center;
+	margin:auto;
+	height:auto;
+}
+
+.mySlides:first-child {
+	display:block;
+}
+
+	
+
+.header {
+	text-align: center;
+	padding-top:20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.aboutme {
+	max-width:100%;
+	text-align:center;
+	padding-right:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.arrow2ndSlide {
+	position: fixed;
+	cursor:pointer;
+	padding-top:10px;
+	padding-right:10px;
+    bottom: 4%;
+	width:100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.prev2ndslide {
+ padding-right: 10px;
+
+}
+
+.homebutton {
+	max-width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.homebutton2 {
+	width:2.2%;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  max-width:100%;
+  height:auto;
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+
+  right:  0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color:#C683AB;
+  font-size: 15px;
+  position:relative;
+  top:50px;
+  width: 100%;
+  text-align:center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+#ogen {
+	width:75%;
+	padding-left:10px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+	padding-top:130px;
+}
+
+#plant1 {
+	width:100%;
+}
+
+#plant2 {
+	width:100%;
+	padding-left:10px;
+}
+
+#plant3 {
+	width:100%;
+}
+
+#rocks {
+	width:70%;
+}
+
+#greek {
+	width:50%;
+}
+
+#body {
+	padding-left:10px;
+	width:50%;
+}
+
+#rocketship {
+	width:45%;
+}
+
+#mushroom {
+	width:100%;
+}
+
+#phone {
+	width:65%;
+}
+
+#raam {
+	width:45%;
+}
+
+#tv {
+	width:32%; 
+}
+
+#instruct {
+	width:20%;
+	position:absolute;
+	right:700px;
+	overflow: visible;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 750px)
+	
+{
+	
+	.slideshow-container {
+		width:100%;
+		margin:auto;
+		position:fixed;
+		top:25%;
+	}
+	
+	
+	.prev, .next {
+	top:89%;
+	width:25%;
+		
+	}
+
+	#titel {
+		width:18%;
+	}
+	
+	.homebutton2 {
+		width:5%;
+	}
+	
+	.mySlides:first-child {
+		margin-top:-70px; 
+	 }
+	
+		
+#ogen {width:100%;
+	}
+
+
+#plant1 {
+	width:115%;
+	margin-left:-40px;
+	margin-top: 50px;
+}
+
+#plant2 {
+	width:140%;
+	margin-left:-110px;
+}
+
+#plant3 {
+	width:140%;
+	margin-left:-110px;
+}
+
+#rocks {
+	width:100%;
+}
+
+#greek {
+		width:90%;
+		margin-top:-80px;
+	}
+
+#body {
+	width:80%;
+	margin-top:-60px;
+}
+
+#rocketship {
+	width:70%;
+	margin-top:-30px;
+	margin-left:-20px;
+}
+
+#mushroom {
+	width:130%;
+	margin-left:-70px;
+}
+
+#phone {
+	width:90%;
+	margin-left:-60px;
+	margin-top:-30px;
+}
+
+#raam {
+	width:80%;
+	margin-top:-70px;
+}
+
+#tv {
+	width:60%; 
+	margin-top:-80px;
+}	
+
+	#instruct {
+		position:relative;
+		width:30%;
+		right:150px;
+		bottom:420px;
+	}
+	
+}
+
+
+
+
+@media only screen and (max-height:1200px) and (min-width:750px)
+ 
+{
+	
+.slideshow-container {
+   padding-top: 40px;
+  width:60%;
+  height:auto;
+  position: relative;
+  margin: auto;
+  text-align: center;
+		
+	}
+}
+
+
+@media only screen and (max-width: 415px) {
+    /* For mobile phones: */
+	
+	
